@@ -1,0 +1,16 @@
+# c-program 
+#include <stdio.h>
+
+int main() {
+   int n;
+   printf("enter number:");
+   scanf("%d",&n);
+   int a=0,i;
+   for(i=1;i<=n;i++)
+   {
+       n=n-i;
+       a++;
+   }
+   printf("%d",a);
+   return 0;
+}
